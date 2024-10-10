@@ -13,7 +13,8 @@ import (
 	"github.com/redis/go-redis/v9"
 )
 
-var DefaultImageTag = "7.4.1-alpine"
+const DefaultImageTag = "7.4.1-alpine"
+
 var redisVersion = DefaultImageTag
 
 // SetImageTag sets the image tag for the redis server.
